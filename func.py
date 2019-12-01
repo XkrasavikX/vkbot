@@ -1,8 +1,8 @@
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 import vk_api, datetime, random, json
 
-token = '934ccea5550e7e6a095f96da271ce9cb10801657fae98bf0e47982c5cb4c3faad1df2218d2853807b707c'
-group_id = '185689855'
+token = ''
+group_id = ''
 
 vk_session = vk_api.VkApi(token=token)
 session_api = vk_session.get_api()
