@@ -1,6 +1,5 @@
 import time, sys
 keyboard = {"45":"45"}
-import data as data
 import tqdm, sys, os
 import random
 import threading
