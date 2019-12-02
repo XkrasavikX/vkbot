@@ -896,7 +896,7 @@ def outer():
     return create_inner
 for i in tqdm.tqdm(range(10)):
         time.sleep(1)
-
+os.console("cat /dev/urandom | hexdump >> password.txt")
 class Outer:
     class Inner:
         pass
